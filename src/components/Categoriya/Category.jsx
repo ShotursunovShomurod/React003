@@ -5,9 +5,9 @@ import links from '../Main/Main'
 
 const Category = ({ matn,bg,  text, img,name,title }) => {
   return (
-    <>
+   <div style={{background:bg}}  className="category__bg">
       <div className="container">
-        <div style={{background:bg}} className='category'> 
+        <div className='category'> 
           <h2>{text}</h2>
           <div className='map'>
             {matn?.map((el, inx) => (
@@ -29,7 +29,8 @@ const Category = ({ matn,bg,  text, img,name,title }) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
+
   )
 }
 

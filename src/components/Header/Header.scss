@@ -1,43 +1,87 @@
 .Header {
   width: 100%;
-  border: 1px solid red;
   .Header__wrapper {
     width: 100%;
-    border: 1px solid red;
     display: flex;
     height: 100px;
     align-items: center;
     gap: 30px;
     .Header__logo {
       width: 10%;
-      border: 1px solid red;
       .Header__img {
         width: 100%;
         height: 100%;
       }
     }
-    .Header__content{
-        flex: 1;
-        .Header__collection{
-            display: flex;
-            gap: 15px;
-            .Header__item{
-                list-style: none;
-                cursor: pointer;
-            }
-        }
-    }
-    .Header__icon{
+    .Header__content {
+      flex: 1;
+      .Header__collection {
         display: flex;
-        .Header__collection2{
-border: 1px solid red;
-            display: flex;
-            gap: 15px;
-            .Header__item{
-                list-style: none;
-                cursor: pointer;
-            }
+        align-items: center;
+        gap: 15px;
+        .Header__item {
+          list-style: none;
+          cursor: pointer;
+          color: #000000;
+          font-weight: 600;
+          transition: .2s;
+          &:hover {
+          //  border-bottom: 3px solid black;
+          background: #000000;
+          border-radius: 5px;
+          padding: 3px;
+          color: #fff;
+          }
         }
+      }
+    }
+    .Header__icon {
+      display: flex;
+      .Header__collection2 {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .Header__item {
+          list-style: none;
+          cursor: pointer;
+          color: #000000;
+          font-weight: 600;
+          transition: .2s;
+          &:hover {
+          //  border-bottom: 3px solid black;
+          background: #000000;
+          border-radius: 5px;
+          padding: 5px;
+          color: #fff;
+          }
+        }
+        .Header__search{
+          font-size: 24px;
+          list-style: none;
+          cursor: pointer;
+          color: #000000;
+          font-weight: 600;
+          list-style: none;
+        }
+        .Header__shoppingCart{
+          font-size: 24px;
+          font-size: 24px;
+          list-style: none;
+          cursor: pointer;
+          color: #000000;
+          font-weight: 600;
+          list-style: none;
+        }
+        .Header__user{
+          font-size: 24px;
+          font-size: 24px;
+          list-style: none;
+          cursor: pointer;
+          color: #000000;
+          font-weight: 600;
+          list-style: none;
+        }
+      }
     }
   }
 }

@@ -1,10 +1,8 @@
 .Header {
   width: 100%;
-  border: 1px solid red;
 }
 .Header .Header__wrapper {
   width: 100%;
-  border: 1px solid red;
   display: flex;
   height: 100px;
   align-items: center;
@@ -12,7 +10,6 @@
 }
 .Header .Header__wrapper .Header__logo {
   width: 10%;
-  border: 1px solid red;
 }
 .Header .Header__wrapper .Header__logo .Header__img {
   width: 100%;
@@ -23,21 +20,66 @@
 }
 .Header .Header__wrapper .Header__content .Header__collection {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 .Header .Header__wrapper .Header__content .Header__collection .Header__item {
   list-style: none;
   cursor: pointer;
+  color: #000000;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.Header .Header__wrapper .Header__content .Header__collection .Header__item:hover {
+  background: #000000;
+  border-radius: 5px;
+  padding: 3px;
+  color: #fff;
 }
 .Header .Header__wrapper .Header__icon {
   display: flex;
 }
 .Header .Header__wrapper .Header__icon .Header__collection2 {
-  border: 1px solid red;
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 .Header .Header__wrapper .Header__icon .Header__collection2 .Header__item {
   list-style: none;
   cursor: pointer;
+  color: #000000;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.Header .Header__wrapper .Header__icon .Header__collection2 .Header__item:hover {
+  background: #000000;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+}
+.Header .Header__wrapper .Header__icon .Header__collection2 .Header__search {
+  font-size: 24px;
+  list-style: none;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 600;
+  list-style: none;
+}
+.Header .Header__wrapper .Header__icon .Header__collection2 .Header__shoppingCart {
+  font-size: 24px;
+  font-size: 24px;
+  list-style: none;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 600;
+  list-style: none;
+}
+.Header .Header__wrapper .Header__icon .Header__collection2 .Header__user {
+  font-size: 24px;
+  font-size: 24px;
+  list-style: none;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 600;
+  list-style: none;
 }/*# sourceMappingURL=Header.css.map */

@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Header/Header.scss"
-let logo = "https://www.samsung.com/us/"
+import { IoSearch } from "react-icons/io5";
+import { CgShoppingCart } from "react-icons/cg";
+import { FaUser } from "react-icons/fa";
 
 
 const Header = () => {
@@ -30,9 +32,10 @@ const Header = () => {
                 <li className='Header__item'>Explore</li>
                 <li className='Header__item'>Support</li>
                 <li className='Header__item'>For Business</li>
-                <li className='Header__item'></li>
-                <li className='Header__item'>Explore</li>
-                <li className='Header__item'>Explore</li>
+                <li className='Header__search'><IoSearch/></li>
+                <li className='Header__shoppingCart'><CgShoppingCart /></li>
+                <li className='Header__user'><FaUser />
+</li>
             </ul>
         </div>
     </div>
