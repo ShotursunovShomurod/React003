@@ -1,0 +1,32 @@
+.Hero__titles {
+  width: 100%;
+}
+.Hero__titles .Hero__title__content {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.Hero__titles .Hero__title__content .Hero__text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Hero__titles .Hero__title__subtitle {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.Hero__titles .Hero__title__subtitle .Hero__subtitle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5px;
+  transition: 0.3s;
+  color: #7c7c7c;
+}
+
+.Hero__card:hover .Hero__subtitle {
+  top: -50px;
+}/*# sourceMappingURL=Hero__title.css.map */

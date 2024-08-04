@@ -1,0 +1,15 @@
+.Hero__img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.Hero__img .Hero__image {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  height: auto;
+}
+
+.Hero__card:hover .Hero__image {
+  transform: scale(1.1);
+}/*# sourceMappingURL=Hero__img.css.map */

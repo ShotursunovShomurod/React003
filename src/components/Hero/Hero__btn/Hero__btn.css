@@ -1,0 +1,30 @@
+.Hero__btns {
+  width: 100%;
+  position: relative;
+}
+.Hero__btns .Hero__button {
+  position: absolute;
+  background: black;
+  color: aliceblue;
+  padding: 12px 24px;
+  border-radius: 20px;
+  transition: 0.7s;
+  left: 50%;
+  top: 30px;
+  transform: translate(-50%);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60px;
+  border: none;
+  transition: 0.3s;
+}
+.Hero__btns .Hero__button:hover {
+  cursor: pointer;
+  opacity: 60%;
+  color: aliceblue;
+}
+
+.Hero__card:hover .Hero__button {
+  top: -30px;
+}/*# sourceMappingURL=Hero__btn.css.map */

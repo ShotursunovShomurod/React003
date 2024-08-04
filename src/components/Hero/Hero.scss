@@ -1,0 +1,61 @@
+.Hero{
+    width: 100%;
+    padding-bottom: 40px;
+    .Hero__wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .Hero__suptitle{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            text-align: center;
+            .Navbar__bigtitle{
+                font-size: 44px;
+                font-weight: 700;
+            }
+            .view{
+                font-size: 20px;
+                font-weight: 600;
+                color: black;
+            }
+            .Hero__collection{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                .Hero__title{
+                    font-size: 20px;
+                    font-weight: 600;
+                    list-style: none;
+                    cursor: pointer;
+                    transition: .3s;
+                    &:hover{
+                        opacity: 60%;
+                    }
+                }
+            }
+        }
+        .Hero__block{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 15px;
+            .Hero__card{
+                border-radius: 20px;
+                padding-bottom: 40px;
+                width: 32%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                background: #f5f5f5;
+                transition: .5s;
+                cursor: pointer;
+                overflow: hidden;
+            }
+        }
+    }
+}
